@@ -1,0 +1,24 @@
+<diagram program="umletino" version="14.4.0-SNAPSHOT"><zoom_level>10</zoom_level><element><id>UMLClass</id><coordinates><x>410</x><y>140</y><w>220</w><h>140</h></coordinates><panel_attributes>Excise Category
+--
+An Excise Category is a classification 
+of alcoholic beverage.
+Classification depends upon Nature 
+of beverage and alcoholic content
+See 
+https://www.gov.uk/government/publications/rates-and-allowance-excise-duty-alcohol-duty/alcohol-duty-rates-from-24-march-2014</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>80</x><y>160</y><w>210</w><h>70</h></coordinates><panel_attributes>Product
+bg=red
+--
+Odoo Product Template</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>410</x><y>520</y><w>210</w><h>80</h></coordinates><panel_attributes>Excise Line
+--
+A log of the Excise impact of a stock
+movement. </panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>280</x><y>190</y><w>150</w><h>30</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;&lt;-</panel_attributes><additional_attributes>10;10;130;10</additional_attributes></element><element><id>UMLClass</id><coordinates><x>80</x><y>520</y><w>210</w><h>70</h></coordinates><panel_attributes>Stock Movement
+bg=red
+--
+Odoo Stock Move Line</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>280</x><y>550</y><w>150</w><h>30</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;&lt;-</panel_attributes><additional_attributes>10;10;130;10</additional_attributes></element><element><id>UMLClass</id><coordinates><x>410</x><y>670</y><w>210</w><h>70</h></coordinates><panel_attributes>Nominal Transacitons
+bg=red
+--
+Odoo Account Moves</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>490</x><y>590</y><w>30</w><h>100</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;&lt;-</panel_attributes><additional_attributes>10;10;10;80</additional_attributes></element><element><id>UMLClass</id><coordinates><x>410</x><y>330</y><w>210</w><h>70</h></coordinates><panel_attributes>Rate
+--
+The rate and application method 
+to be applied to an Excise Category 
+for a specified period</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>500</x><y>270</y><w>30</w><h>80</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;&lt;-</panel_attributes><additional_attributes>10;10;10;60</additional_attributes></element></diagram>
